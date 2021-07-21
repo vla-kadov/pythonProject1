@@ -1,12 +1,8 @@
-a = 23
-b = 12
+x = int(input('wwod'))
+y = int(input('wwod'))
+z = int(input('wwod'))
 
-
-def f():
-    global a
-    a = a + 2
-    print(a)
-
-
-f()
-print(a)
+def sum(a,b,c):
+    return a + b + c
+i = sum(x,y,z)
+print (i)
